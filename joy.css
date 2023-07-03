@@ -1,0 +1,507 @@
+*{
+	margin:0;box-sizing:border-box;
+	font-family: 'Poppins', sans-serif;
+	position: relative;
+	font-weight: bold;
+	color:white; 
+}
+body{
+	background-color: black;
+}
+#bo2{
+	background-color: white;
+}
+
+
+
+.h{
+	height:400px;
+	width:1300px;
+	background-color: #5072A7;
+}
+.s{
+	color:white;
+	font-size:70px;
+	top:50px;
+	left:50px;
+	width:600px;
+}
+
+.l{
+	font-size:50px;
+	top:120px;
+	color:white;
+	padding-left:20px;
+	width:400px;
+	left:50px;
+	border-style:solid;
+	border-color: white;
+}
+
+
+.m{
+	height:100px;
+	width:100px;
+	left:50px;
+	position: absolute;
+	top:450px;
+}
+.o{
+	height:2500px;
+	width:900px;
+	top:-80px;
+	background-color: black;
+	animation:left 300ms;
+	display:none;
+	left:0px;
+	opacity:1.0;
+}
+
+.lo{
+	top:330px;
+	left:70px;
+	border-style: solid;
+	border-color: white;
+	left:50px;
+	width:800px;
+}
+
+.lg{
+	height:90px;
+	width:90px;
+	left:20px;
+	top:30px;
+}
+
+.l1{
+	color:white;
+	font-size:40px;
+	left:150px;
+	top:-50px;
+}
+
+@keyframes left{
+	0%{
+		left:-700px;
+	}
+	100%{
+		left:0px;
+	}
+}
+
+.close{
+	height:80px;
+	width:200px;
+	background-color: white;
+	color:black;
+	left:60px;
+	top:60px;
+	font-size:50px;
+	position: absolute;
+	display: none;
+}
+@keyframes right{
+	0%{
+		left:0px;
+	}
+	100%{
+		left:-900px;
+	}
+}
+
+#bo{
+	background-color: black;
+	height:3500px;
+}
+
+.lu{
+	height:150px;
+	width:650px;
+    border-color:white;
+    border-style:solid;
+    font-size:50px;
+}
+
+.its{
+	height:400px;
+	width:400px;
+	left:450px;
+	top:100px;
+	border-radius:50%;
+}
+
+input{
+	height:150px;
+	width:900px;
+	top:300px;
+	left:200px;
+	background-color: black;
+	color:white;
+	font-size:50px;
+	outline:none;
+	border-color:white;
+	border-width:7px;
+	border-radius: 15px 15px 15px 15px;
+	padding-left:50px;
+}
+
+label{
+	color:white;
+	font-size:40px;
+	top:250px;
+	left:-670px;
+	background-color:black;
+	top:230px;
+}
+
+.submit{
+	width:900px;
+	height:150px;
+	background-color:orange;
+	color:white;
+	font-size:50px;
+	left:200px;
+	top:300px;
+}
+
+.grp{
+	display:block;
+}
+
+#sb{
+	top:400px;
+}
+
+.grp2{
+	display:none;
+}
+
+.gr{
+	position: relative;
+}
+
+#e{
+	top:150px;
+}
+#up{
+	top:70px;
+}
+
+.board{
+	height:900px;
+	width:1210px;
+	left:40px;
+	top:600px;
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 0px 10px 10px gainsboro;
+}
+
+.my{
+	top:50px;
+	left:50px;
+	font-size:80px;
+	color:black;
+}
+
+
+
+.name{
+	top:-70px;
+	left:50px;
+	font-size:60px;
+	color:black;
+}
+
+#sc{
+	top:-20px;
+	left:50px;
+	font-size:60px;
+	color:black;
+}
+#score{
+	top:-20px;
+	left:50px;
+	font-size:200px;
+	color:black;
+}
+
+#a{
+    font-size:60px;
+    top:50px;
+    left:60px;
+    position: absolute;
+    font-weight: bold;
+}
+.lol{
+	height:190px;
+	width:190px;
+	left:980px;
+	top:-100px;
+}
+#down{
+	height:190px;
+	width:190px;
+	left:1000px;
+	top:-770px;
+}
+
+.namo{
+	top:-10px;
+	font-size:50px;
+	left:50px;
+	color:limegreen;
+	top:400px;
+
+}
+.total{
+	top:200px;
+	width:900px;
+	font-size:50px;
+	left:50px;
+	top:400px;
+}
+.pend{
+	top:240px;
+	width:900px;
+	font-size:50px;
+	left:50px;
+	top:400px;
+	color:red;
+}
+
+table{
+	width:1100px;
+	left:50px;
+	height:400px;
+	text-align:center;
+	top:250px;
+	border-style: solid;
+	border-color: white;
+	border-width:10px;
+	font-size:40px;
+}
+th{
+	color:white;
+	font-weight:bold;
+	background-color:teal;
+}
+td{
+   color:white;
+	font-weight:bold;
+	background-color:limegreen;	
+}
+
+.attend{
+	top:240px;
+	width:900px;
+	font-size:50px;
+	left:60px;
+	top:300px;
+	color:black;
+}
+
+#la{
+	height:1200px;
+	top:1600px;
+}
+
+.atto{
+	top:300px;
+	left:50px;
+	font-size:200px;
+	color:black;
+}
+
+.point{
+	height:150px;
+	top:430px;
+	left:900px;
+	position: absolute;
+	width:150px;
+}
+#pippo{
+	position: absolute;;
+	font-size: 50px;
+	left:1045px;
+	padding-left:10px;
+	width:200px;
+	top:460px;
+	color:white;
+	background-color:orange;
+}
+
+
+.js{
+	font-size:70px;
+	width:700px;
+	color:white;
+	top:100px;
+	left:50px;
+}
+
+.tit{
+	color:white;
+	top:300px;
+	left:50px;
+	width:800px;
+	font-size:50px;
+}
+
+li{
+	color:white;
+	font-size:40px;
+	top:350px;
+	height:200px;
+	padding-left:80px;
+	padding-top:0px;
+	width:900px;
+	border-style:solid;
+	border-color:white;
+	list-style-type:none;
+}
+.circle{
+    height:50px;
+	width:50px;
+	position: absolute;
+	left:-60px;
+	top:50px;
+	position: relative;
+	border-radius:50%;
+	background-color:#AA0000;
+}
+#opl{
+	top:-1000px;
+}
+
+#block{
+	height:150px;
+	left:20px;
+	top:700px;
+	width:1200px;
+	border-style:solid;
+	background-color:limegreen;
+	color:white;
+	border-color:gainsboro;
+	border-width:4px 4px 4px 4px;
+}
+
+#idi{
+	font-size:60px;
+	color:white;
+	left:20px;
+	position: relative;
+	top:20px;
+}
+
+#status{
+    font-size:50px;
+    height:100px;
+    width:400px;
+    padding-left:60px;
+    padding-top:12px;
+    background-color:limegreen;
+    color:white;
+    top:-65px;
+    left:780px;
+}
+
+.status{
+    font-size:50px;
+    height:100px;
+    width:400px;
+    padding-left:60px;
+    padding-top:12px;
+    background-color:limegreen;
+    color:white;
+    top:-65px;
+    left:780px;
+}
+#devil{
+    font-size:50px;
+    height:100px;
+    width:400px;
+    padding-left:60px;
+    padding-top:12px;
+    background-color:red;
+    color:white;
+    position: absolute;
+    top:530px;
+    left:780px;
+}
+
+#stylo{
+	background-color:red;
+	height:100px;
+	width:400px;
+}
+
+#i0{
+	background-color:white;
+	border-style:solid;
+	color:black;
+	top:-40px;
+	border-color:black;
+}
+
+#aiyo{
+	color:black;
+	background-color: white;
+	top:-110px;
+}
+
+.maker{
+	background-color:white;
+	top:500px;
+	display:block;;
+	left:-160px;
+	position:absolute;
+}
+
+#pur{
+	height:150px;
+	width:300px;
+	top:-190px;
+	font-size:50px;
+	color:white;
+	left:1100px;
+	background-color:orange;
+}
+
+#listit{
+	font-size:50px;
+	left:220px;
+	top:-80px;
+	width:900px;
+}
+
+.takehim{
+	height:100px;
+	width:400px;
+	position: absolute;
+	font-size:50px;
+	top:200px;
+	background-color:teal;
+	color:white;
+	left:800px;
+}
+
+.batch1{
+	width:1200px;
+	height:900px;
+	left:60px;
+	top:100px;
+	box-shadow:0px 0px 5px 5px gainsboro;
+}
+
+.title1{
+	top:40px;
+	left:50px;
+	font-size:70px;
+	color:black;
+}
+
+#tab1{
+	top:150px;
+	height:500px;
+}
